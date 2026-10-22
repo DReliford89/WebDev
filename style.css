@@ -1,0 +1,102 @@
+/* Overall page styling — type selector */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F0F4F8;
+    color: #243447;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Header styling — type selector */
+header {
+    background-color: #16324F;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 10px 0 20px;
+    padding: 25px;
+    border: 3px solid #2A9D8F;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #FFFFFF;
+    margin: 0 0 10px;
+}
+
+h2 {
+    color: #16324F;
+}
+
+h3 {
+    color: #2A9D8F;
+}
+
+/* Navigation — class selector */
+.site-nav {
+    text-align: center;
+    background-color: #D8F3EF;
+    margin: 20px 0;
+    padding: 15px;
+    border: 2px solid #2A9D8F;
+    border-radius: 8px;
+}
+
+.site-nav a {
+    color: #16324F;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+/* Section styling — ID selectors */
+#about,
+#hobbies,
+#favorite {
+    background-color: #FFFFFF;
+    margin: 20px 0;
+    padding: 22px;
+    border: 2px solid #2A9D8F;
+    border-radius: 8px;
+}
+
+#about h2,
+#hobbies h2,
+#favorite h2 {
+    border-bottom: 2px solid #D8F3EF;
+    padding-bottom: 8px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* Image area */
+figure {
+    text-align: center;
+    margin: 25px 0;
+    padding: 15px;
+    border: 2px solid #2A9D8F;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    background-color: #16324F;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 25px 0 0;
+    padding: 15px;
+    border: 2px solid #2A9D8F;
+    border-radius: 8px;
+}
